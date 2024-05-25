@@ -1,0 +1,17 @@
+body {
+    background-color: #1c1c1c;
+    font-family: "Julius Sans One", sans-serif;
+    color: #00FFFF;
+    box-shadow:0 0 80px #1630BE inset;
+    height: 100vh;
+}
+
+.border3d {
+    background: #1630BE;
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px #404040, 5px 5px 15px #000000, -5px -5px 15px #404040;
+}
+
+.topButton{
+    background: #1630BE;
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px #404040, 5px 5px 15px #000000, -5px -5px 15px #1630BE;
+}

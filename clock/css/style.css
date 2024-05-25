@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: "Julius Sans One", sans-serif;
+    color: #00FFFF;
+    text-shadow: 0 0 40px #00FFFF;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #1c1c1c;
+}
+
+.header, .footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clockBackground {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+}
+
+.sphereDataContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clockSphere, .dateBox {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.dateBox {
+    font-size: 60px;
+    max-height: 130px;
+}
+
+.buttons {
+    display: grid;
+    gap:70px;
+}
+
+.button {
+    margin: 40px;  
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #6f80e0;
+}
+
+.border3d {
+    background: #1630BE;
+    border-radius: 15px;
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px #404040, 5px 5px 15px #000000, -5px -5px 15px #404040;
+}
+
+.clock {
+    width: 550px;
+    height: 550px;
+    background-color: #1630BE;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px #404040, 5px 5px 15px #000000, -5px -5px 15px #404040, inset 0 0 80px #00FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.footerText{
+    align-items: center; 
+}
+
+.githubIcon {
+    width: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    
+
+    .header, .footer {
+        width: 90%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .clock{
+        width: 380px;
+        height: 380px;
+        background-color: #1630BE;
+        border-radius: 50%;
+        box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px #404040, 5px 5px 15px #000000, -5px -5px 15px #404040, inset 0 0 80px #00FFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+    }
+
+    .button {
+        margin:12px;  
+        font-size: 46px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: -70px;
+    }
+    
+    .clockBackground {
+        display: flex;
+        flex-direction: column;
+    }
+}

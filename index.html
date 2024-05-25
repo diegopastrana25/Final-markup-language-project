@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego-Pi-Watch</title>
+    <link rel="stylesheet" href="./clock/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="./clock/js/script.js"></script>
+  </head>
+  <body class="container">
+    <header class="header border3d">Diego-Pi-Watch</header>
+    <main class="clockBackground">
+      <section class="sphereDataContainer">
+        <div class="clockSphere">
+          <div class="clock" id="time"></div>
+        </div>
+        <div class="dateBox border3d" id="dateDisplay"></div>
+      </section>
+      <nav class="buttons">
+        <div class="button border3d" onclick="location.href='./calendar/calendar.html'">Calendar</div>
+        <div class="button border3d" onclick="location.href='./reminders/reminders.html'">Reminders</div>
+      </nav>
+    </main>
+    <footer class="footer border3d">
+      <div class="footerText"> © Diego 2024 <a href="https://github.com/DiegoPastrana3D" target="_blank">
+          <div>
+            <img src="./clock/imgs/github.png" alt="GitHub">
+          </div>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
