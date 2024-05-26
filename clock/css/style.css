@@ -115,6 +115,11 @@ body {
         font-size: 70px;
     }
 
+    .dateBox {
+        font-size: 40px;
+        max-height: 130px;
+    }
+
     .button {
         margin:12px;  
         font-size: 46px;
